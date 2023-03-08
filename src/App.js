@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './navigationBar/NavBar';
+import Home from './components/Home';
+import About from './components/About';
+import Services from './components/Services';
+import Tools from './components/Tools';
+import ContactMe from './components/ContactMe';
+import { useState } from "react";
+import Footer from './components/Footer';
 
-function App() {
+
+export default  function App() {
+  const [darkMode, setDarkMode] = useState(false);
+    const handleOnClick = (e) => {
+        e.preventDefault();
+        setDarkMode(!darkMode);
+    };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <NavBar darkMode={darkMode} handleOnClick={handleOnClick}>
+        <Home />
+        <About/>
+        <Services/>
+        <Tools/>
+        <ContactMe darkMode={darkMode}/>
+        <Footer />
+      </NavBar>
   );
-}
-
-export default App;
+};
