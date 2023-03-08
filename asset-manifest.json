@@ -1,16 +1,40 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/react-gh-pages/static/js/main.36bdce57.js",
+    "main.css": "/react-gh-pages/static/css/main.1920cb46.css",
+    "main.js": "/react-gh-pages/static/js/main.aa10b962.js",
     "static/js/787.b701888c.chunk.js": "/react-gh-pages/static/js/787.b701888c.chunk.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/karu.png": "/react-gh-pages/static/media/karu.2859942dab0fc30085f1.png",
+    "static/media/hnu.jpg": "/react-gh-pages/static/media/hnu.5502ea88c52edd37070c.jpg",
+    "static/media/laravel.jpg": "/react-gh-pages/static/media/laravel.a72ae5c1d3ff9aa2e27b.jpg",
+    "static/media/next.png": "/react-gh-pages/static/media/next.495eee593de1b5eccaf4.png",
+    "static/media/webdesign.png": "/react-gh-pages/static/media/webdesign.d37b7d740b4345ade533.png",
+    "static/media/webapp.png": "/react-gh-pages/static/media/webapp.5367576a453819f5ef25.png",
+    "static/media/uiux.png": "/react-gh-pages/static/media/uiux.eccdda232ce087ec0bc0.png",
+    "static/media/adobe.png": "/react-gh-pages/static/media/adobe.32a62d5ef9db99dae947.png",
+    "static/media/vscode.jpg": "/react-gh-pages/static/media/vscode.cec4f62a188cd991ff25.jpg",
+    "static/media/react.png": "/react-gh-pages/static/media/react.1db4ba82727769773739.png",
+    "static/media/figma.png": "/react-gh-pages/static/media/figma.ecb0c2f95f13613bfa7a.png",
+    "static/media/logoBlack.svg": "/react-gh-pages/static/media/logoBlack.63bf0d143c6270c40f6d32df2225b23b.svg",
+    "static/media/logoWhite.svg": "/react-gh-pages/static/media/logoWhite.abe6f216de07d60e48df2adc879d5cc7.svg",
+    "static/media/discord.svg": "/react-gh-pages/static/media/discord.9e3972b85eef28ec77c6ba353efc0824.svg",
+    "static/media/discorddark.svg": "/react-gh-pages/static/media/discorddark.f2cdcffab0df68573d18ea85fb8f2e70.svg",
+    "static/media/githubdark.svg": "/react-gh-pages/static/media/githubdark.711d5ce29ae4f1c29449327ae7f376c4.svg",
+    "static/media/github.svg": "/react-gh-pages/static/media/github.a31690b5883cf2480c87b6c2ed5fada5.svg",
+    "static/media/gmaildark.svg": "/react-gh-pages/static/media/gmaildark.82da77d474b9ad7e14c0dd971cd8a963.svg",
+    "static/media/gmail.svg": "/react-gh-pages/static/media/gmail.57b90bb96aa9d0708781bfbb6644e38f.svg",
     "index.html": "/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.36bdce57.js.map": "/react-gh-pages/static/js/main.36bdce57.js.map",
+    "static/media/facebookdark.svg": "/react-gh-pages/static/media/facebookdark.80abd275e36805f09f2b825d3c311cdc.svg",
+    "static/media/facebook.svg": "/react-gh-pages/static/media/facebook.ae01c8ea6237a360904eccf519cdcda7.svg",
+    "static/media/telegram.svg": "/react-gh-pages/static/media/telegram.0b9de277c5b48d75df59799128540e77.svg",
+    "static/media/telegramdark.svg": "/react-gh-pages/static/media/telegramdark.c6fee464767ca995cc8fa6ed82af19ab.svg",
+    "static/media/linkedindark.svg": "/react-gh-pages/static/media/linkedindark.1d93a5a98b3cda945566c7ec0c4138bc.svg",
+    "static/media/linkedin.svg": "/react-gh-pages/static/media/linkedin.75f772036bfe44493e8f63a95f242be5.svg",
+    "main.1920cb46.css.map": "/react-gh-pages/static/css/main.1920cb46.css.map",
+    "main.aa10b962.js.map": "/react-gh-pages/static/js/main.aa10b962.js.map",
     "787.b701888c.chunk.js.map": "/react-gh-pages/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.36bdce57.js"
+    "static/css/main.1920cb46.css",
+    "static/js/main.aa10b962.js"
   ]
 }
