@@ -3,7 +3,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'; //to install type: npm install @emailjs/browser
 import { toast } from 'react-toastify'; //to install type: npm install --save react-toastify
 import SocialMediaLinks from './SocialMediaLinks';
-
 import { useForm } from "react-hook-form";//to install type: npm install react-hook-form
 
 
@@ -67,11 +66,7 @@ const ContactMe = (props) => {
           });
      reset();
    };
-//  = (e) => {
-//     e.preventDefault();
 
-//     
-//   };
     return (
         <section id="contactme">
             <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10 pt-5' >
