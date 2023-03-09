@@ -84,7 +84,7 @@ const ContactMe = (props) => {
                                 type="text"
                                 name="user_name"
                                 {...register("user_name", { required: true, minLength: 4 })} />
-                            {errors.user_name && <span className='text-red-600'>Name is required!</span>}
+                            {errors.user_name && <span className=' text-red-500  pt-1'>Name is required!</span>}
                             <label className="text-lg pt-5 pb-1">
                                 Contact:
                             </label>
@@ -93,7 +93,7 @@ const ContactMe = (props) => {
                                 type="tel"
                                 name="user_contact"
                                 {...register("user_contact", { required: true, minLength: 6, maxLength: 12 })} />
-                            {errors.user_contact && <span className='text-red-600'>Contact number is required!</span>}
+                            {errors.user_contact && <span className=' text-red-500 pt-1'>Contact number is required!</span>}
                             <label className="text-lg pt-5 pb-1">
                                 Email Address:
                             </label>
@@ -102,14 +102,14 @@ const ContactMe = (props) => {
                                 type="email"
                                 name="user_email"
                                 {...register("user_email", { required: true, pattern: /^\S+@\S+$/i })} />
-                            {errors.user_email && <span className='text-red-600'>Email is required!</span>}
+                            {errors.user_email && <span className=' text-red-500 pt-1'>Email is required!</span>}
                             <label className="text-lg pt-5 pb-1"  >
                                 Your Message
                             </label>
                             <textarea className="h-40 text-lg bg-transparent border-black dark:border-white rounded-lg border-2 py-2 px-3"
                                 name="message"
                                 {...register("message", { required: true, minLength: 10 })} />
-                            {errors.message && <span className='text-red-600'>Message is required!</span>}
+                            {errors.message && <span className=' text-red-500 pt-1'>Message is required!</span>}
                         </div>
                         <button className="text-xl dark:bg-green-600 bg-violet-600 rounded-full py-1 px-3 w-full my-5 hover:bg-green-600 dark:hover:bg-violet-600 font-semibold"
                             type="submit">
