@@ -17,7 +17,7 @@ export default function SocialMediaLinks(props) {
         <>
             <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center '>
                     <div>
-                        <h3 className='text-xl font-semibold  text-center p-5'>Social Media links</h3>
+                        <h3 className='lg:text-xl text-lg font-semibold  text-center p-5'>Social Media links</h3>
                         <div className='grid grid-cols-2 md:gap-x-24 gap-x-auto  gap-y-5 '>
                             <Link className='cursor-pointer' target="_blank" to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" >
                                 <div className='grid grid-cols-2 place-items-center'>
