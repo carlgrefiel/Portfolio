@@ -8,21 +8,21 @@ import { useState } from "react";
 import Footer from './components/Footer';
 
 
-export default  function App() {
-  const [darkMode, setDarkMode] = useState(false);
-    const handleOnClick = (e) => {
-        e.preventDefault();
-        setDarkMode(!darkMode);
-    };
 
+export default function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const handleOnClick = (e) => {
+    e.preventDefault();
+    setDarkMode(!darkMode);
+  };
   return (
-      <NavBar darkMode={darkMode} handleOnClick={handleOnClick}>
-        <Home />
-        <About/>
-        <Services/>
-        <Tools/>
-        <ContactMe darkMode={darkMode}/>
-        <Footer />
-      </NavBar>
+    <NavBar darkMode={darkMode} handleOnClick={handleOnClick} >
+      <Home />
+      <About />
+      <Services />
+      <Tools />
+      <ContactMe darkMode={darkMode}  />
+      <Footer />
+    </NavBar>
   );
 };
