@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'; //to install type: npm install @emailjs/browser
 import { toast } from 'react-toastify'; //to install type: npm install --save react-toastify
@@ -75,7 +74,7 @@ const ContactMe = (props) => {
             <div className='lg:flex-row flex  flex-col-reverse gap-5 '>
                 <SocialMediaLinks darkMode={props.darkMode}/>
                 <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg lg:mx-0 mx-auto md:w-3/4 w-full'>
-                    <form ref={form} onSubmit={handleSubmit(sendEmail)} className="mx-auto px-5">
+                    <form ref={form} onSubmit={handleSubmit(sendEmail)} className="mx-auto lg:px-10">
                         <div className="relative flex flex-col ">
                             <label className="text-lg pt-5 pb-1" >
                                 Name:
@@ -114,7 +113,7 @@ const ContactMe = (props) => {
                         </div> 
                         <button className="text-xl dark:bg-green-600 bg-violet-600 rounded-full py-1 px-3 w-full my-5 hover:bg-green-600 dark:hover:bg-violet-600 font-semibold"
                         type="submit">
-                            Submit
+                            Send
                         </button>
                     </form>
                 </div>
