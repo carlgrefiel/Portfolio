@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.85efae0c.css",
-    "main.js": "/react-gh-pages/static/js/main.ae8a2ba1.js",
+    "main.css": "/react-gh-pages/static/css/main.4d010861.css",
+    "main.js": "/react-gh-pages/static/js/main.d81ea5a7.js",
     "static/js/787.b701888c.chunk.js": "/react-gh-pages/static/js/787.b701888c.chunk.js",
     "static/media/karu.png": "/react-gh-pages/static/media/karu.2859942dab0fc30085f1.png",
     "static/media/hnu.jpg": "/react-gh-pages/static/media/hnu.5502ea88c52edd37070c.jpg",
@@ -18,23 +18,23 @@
     "static/media/logoWhite.svg": "/react-gh-pages/static/media/logoWhite.abe6f216de07d60e48df2adc879d5cc7.svg",
     "static/media/discord.svg": "/react-gh-pages/static/media/discord.9e3972b85eef28ec77c6ba353efc0824.svg",
     "static/media/discorddark.svg": "/react-gh-pages/static/media/discorddark.f2cdcffab0df68573d18ea85fb8f2e70.svg",
+    "static/media/github.svg": "/react-gh-pages/static/media/github.13ab16e5d79855e38ac988d0e0f4d4b6.svg",
     "static/media/githubdark.svg": "/react-gh-pages/static/media/githubdark.711d5ce29ae4f1c29449327ae7f376c4.svg",
-    "static/media/github.svg": "/react-gh-pages/static/media/github.a31690b5883cf2480c87b6c2ed5fada5.svg",
+    "static/media/gmail.svg": "/react-gh-pages/static/media/gmail.b6c7013b94c12256ab4837819dc7efb4.svg",
     "static/media/gmaildark.svg": "/react-gh-pages/static/media/gmaildark.82da77d474b9ad7e14c0dd971cd8a963.svg",
-    "static/media/gmail.svg": "/react-gh-pages/static/media/gmail.57b90bb96aa9d0708781bfbb6644e38f.svg",
     "index.html": "/react-gh-pages/index.html",
     "static/media/facebookdark.svg": "/react-gh-pages/static/media/facebookdark.80abd275e36805f09f2b825d3c311cdc.svg",
     "static/media/facebook.svg": "/react-gh-pages/static/media/facebook.ae01c8ea6237a360904eccf519cdcda7.svg",
     "static/media/telegram.svg": "/react-gh-pages/static/media/telegram.0b9de277c5b48d75df59799128540e77.svg",
     "static/media/telegramdark.svg": "/react-gh-pages/static/media/telegramdark.c6fee464767ca995cc8fa6ed82af19ab.svg",
+    "static/media/linkedin.svg": "/react-gh-pages/static/media/linkedin.561e709aabad52358def2ea00d167016.svg",
     "static/media/linkedindark.svg": "/react-gh-pages/static/media/linkedindark.1d93a5a98b3cda945566c7ec0c4138bc.svg",
-    "static/media/linkedin.svg": "/react-gh-pages/static/media/linkedin.75f772036bfe44493e8f63a95f242be5.svg",
-    "main.85efae0c.css.map": "/react-gh-pages/static/css/main.85efae0c.css.map",
-    "main.ae8a2ba1.js.map": "/react-gh-pages/static/js/main.ae8a2ba1.js.map",
+    "main.4d010861.css.map": "/react-gh-pages/static/css/main.4d010861.css.map",
+    "main.d81ea5a7.js.map": "/react-gh-pages/static/js/main.d81ea5a7.js.map",
     "787.b701888c.chunk.js.map": "/react-gh-pages/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85efae0c.css",
-    "static/js/main.ae8a2ba1.js"
+    "static/css/main.4d010861.css",
+    "static/js/main.d81ea5a7.js"
   ]
 }
