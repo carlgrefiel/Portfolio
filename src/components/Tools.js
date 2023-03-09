@@ -7,7 +7,7 @@ import vscode from '../assets/images/vscode.jpg'
 
 export default function Tools() {
     return (
-        <section>
+        <section id='tools'>
            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10' >Tools</h2>
           <div className='flex flex-wrap justify-center gap-5'>
               <div className='hover:scale-125 duration-500 py-5'>
