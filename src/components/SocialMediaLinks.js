@@ -18,41 +18,41 @@ export default function SocialMediaLinks(props) {
             <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center '>
                     <div>
                         <h3 className='text-xl font-semibold  text-center p-5'>Social Media links</h3>
-                        <div className='grid grid-cols-2 gap-x-24 gap-y-5 '>
+                        <div className='grid grid-cols-2 md:gap-x-24 gap-x-auto  gap-y-5 '>
                             <Link className='cursor-pointer' target="_blank" to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" >
                                 <div className='grid grid-cols-2 place-items-center'>
-                                    <img className='w-[56px] h-[36]' alt='gmail' src={props.darkMode ? gmail : gmaildark}/>
-                                    <p className='text-md font-medium '>Gmail</p>
+                                    <img className='w-[56px] lg:h-[56px] h-[36px]' alt='gmail' src={props.darkMode ? gmail : gmaildark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium '>Gmail</p>
                                 </div>
                             </Link>
                             <Link className='cursor-pointer' target="_blank" to="https://www.linkedin.com/in/jhoncarlgrefiel/" > 
                                 <div className='grid grid-cols-2 place-items-center '>
-                                    <img className=' w-[56px] h-[36]' alt='linkedin' src={props.darkMode ?linkedin : linkedindark}/>
-                                    <p className='text-md font-medium '>LinkedIn</p>
+                                    <img className=' w-[56px] lg:h-[56px] h-[36px]' alt='linkedin' src={props.darkMode ?linkedin : linkedindark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium '>LinkedIn</p>
                                 </div>
                             </Link>
                             <Link className='cursor-pointer' target="_blank" to="https://www.facebook.com/jhoncarl.grefiel" >
                                 <div className='grid grid-cols-2 place-items-center'>
-                                    <img className='w-[50px] h-[36]' alt='facebook' src={props.darkMode ?facebook : facebookdark}/>
-                                    <p className='text-md font-medium'>Facebook</p>
+                                    <img className='w-[50px] lg:h-[56px] h-[36px]' alt='facebook' src={props.darkMode ?facebook : facebookdark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium'>Facebook</p>
                                 </div>
                             </Link>
                             <Link className='cursor-pointer' target="_blank" to="https://web.telegram.org/k/" >
                                 <div className='grid grid-cols-2 place-items-center'>
-                                    <img className='w-[56px] h-[36]'  alt='telegram' src={props.darkMode ?telegram : telegramdark}/>
-                                    <p className='text-md font-medium '>Telegram</p>
+                                    <img className='w-[56px] lg:h-[56px] h-[36px]'  alt='telegram' src={props.darkMode ?telegram : telegramdark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium '>Telegram</p>
                                 </div>
                             </Link>
                             <Link className='cursor-pointer' target="_blank" to="https://discord.com/" >
                                 <div className='grid grid-cols-2 place-items-center'>
-                                    <img className='w-[56px] h-[36]' alt='discord' src={props.darkMode ?discord : discorddark}/>
-                                    <p className='text-md font-medium '>Discord</p>
+                                    <img className='w-[56px] lg:h-[56px] h-[36px]' alt='discord' src={props.darkMode ?discord : discorddark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium '>Discord</p>
                                 </div>
                             </Link>
                             <Link className=' cursor-pointer' target="_blank" to="https://github.com/carlgrefiel" >
                                 <div className='grid grid-cols-2 place-items-center'>
-                                    <img className='w-[56px] h-[36]' alt='github' src={props.darkMode ?github : githubdark}/>
-                                    <p className='text-md font-medium '>GitHub</p>
+                                    <img className='w-[56px] lg:h-[56px] h-[36px]' alt='github' src={props.darkMode ?github : githubdark}/>
+                                    <p className='lg:text-lg md:text-md text-sm font-medium '>GitHub</p>
                                 </div>
                             </Link>
                         </div> 
