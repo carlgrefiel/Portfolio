@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.410eba61.css",
-    "main.js": "/react-gh-pages/static/js/main.aa49d67f.js",
+    "main.js": "/react-gh-pages/static/js/main.be6112c7.js",
     "static/js/787.b701888c.chunk.js": "/react-gh-pages/static/js/787.b701888c.chunk.js",
     "static/media/karu.png": "/react-gh-pages/static/media/karu.2859942dab0fc30085f1.png",
     "static/media/hnu.jpg": "/react-gh-pages/static/media/hnu.5502ea88c52edd37070c.jpg",
@@ -30,11 +30,11 @@
     "static/media/linkedin.svg": "/react-gh-pages/static/media/linkedin.561e709aabad52358def2ea00d167016.svg",
     "static/media/linkedindark.svg": "/react-gh-pages/static/media/linkedindark.1d93a5a98b3cda945566c7ec0c4138bc.svg",
     "main.410eba61.css.map": "/react-gh-pages/static/css/main.410eba61.css.map",
-    "main.aa49d67f.js.map": "/react-gh-pages/static/js/main.aa49d67f.js.map",
+    "main.be6112c7.js.map": "/react-gh-pages/static/js/main.be6112c7.js.map",
     "787.b701888c.chunk.js.map": "/react-gh-pages/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.410eba61.css",
-    "static/js/main.aa49d67f.js"
+    "static/js/main.be6112c7.js"
   ]
 }
