@@ -6,7 +6,7 @@ export default function About() {
             <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10' >About Me</h2>
             <div className='lg:flex gap-5 '>
                 <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg md:w-[600px] mx-auto'>
-                    <img className=" shadow-2xl mx-auto w-[400px] h-[400px] rounded-lg" alt="hnu" src={hnu} />
+                    <img className=" hover:scale-125 duration-500 shadow-2xl mx-auto w-[400px] h-[400px] rounded-lg" alt="hnu" src={hnu} />
                 </div>
                 <div className=' lg:w-1/2 mx-auto shadow-2xl p-5 rounded-lg'>
                     <p className="lg:text-xl md:text-lg text-md py-8 leading-8 lg:px-16 px-1 text-center">
