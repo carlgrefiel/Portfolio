@@ -67,8 +67,8 @@ const ContactMe = (props) => {
     };
 
     return (
-        <section id="contact">
-            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10 pt-5' >
+        <section id="contact" className='xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10'>
+            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10 pt-5' >
                 Contact Me
             </h2>
             <div className='lg:flex-row flex  flex-col-reverse gap-5 '>

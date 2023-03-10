@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import karu from '../assets/images/karu.png'
+import karu from '../assets/images/png/karu.png'
 import { HashLink as Link } from 'react-router-hash-link';//to install type: npm install --save react-router-hash-link
 
 export default function Home(props) {
     const [hover, setHover] = useState(false);//to change the color of animation pulse while hovering
     return (
-        <section id='home' >
-            <div className=' xl:flex pt-10'>
+        <section id='home' className='xl:mt-[40px] lg:mt-[40px] md:mt-[40px] mt-5' >
+            <div className=' xl:flex'>
                 <div className='text-center lg:max-w-xl md:max-w-lg md:mx-auto sm:max-w-lg sm:mx-auto '>
                     <h1 className='xl:text-5xl xl:font-semibold lg:text-4xl text-3xl font-medium text-gray-800 dark:text-gray-50' >
                         Hello, I'm <span className='jhoncarl text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
@@ -24,9 +24,11 @@ export default function Home(props) {
                         </button>
                     </Link>
                 </div>
-                <div className='relative bg-gradient-to-t dark:from-gray-100 dark:to-green-600 from-gray-900 to-violet-600 rounded-full xl:w-80 xl:h-80 h-0 mx-auto invisible xl:visible '>
-                    <img alt="carl" className='cursor-pointer' src={karu} />
-                </div>
+                <div>
+                    <div className=' relative bg-gradient-to-t dark:from-gray-100 dark:to-green-600 from-gray-900 to-violet-600 rounded-full xl:w-80 xl:h-80 h-0 mx-auto invisible xl:visible '>
+                        <img alt="carl" className='cursor-pointer' src={karu} />
+                    </div>
+                </div> 
             </div>
         </section>
     );
