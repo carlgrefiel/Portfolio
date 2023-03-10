@@ -9,7 +9,7 @@ export default function Home(props) {
             <div className=' xl:flex pt-10'>
                 <div className='text-center lg:max-w-xl md:max-w-lg md:mx-auto sm:max-w-lg sm:mx-auto '>
                     <h1 className='xl:text-5xl xl:font-semibold lg:text-4xl text-3xl font-medium text-gray-800 dark:text-gray-50' >
-                        Hello, I'm <span className='text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
+                        Hello, I'm <span className='jhoncarl text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
                     </h1>
                     <h2 className='xl:text-3xl lg:text-2xl text-xl py-2'>
                         Web Developer and Designer
