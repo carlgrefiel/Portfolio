@@ -2,8 +2,8 @@ import hnu from '../assets/images/jpg/hnu.jpg'
 
 export default function About() {
     return (
-        <section id='about' className="pb-8">
-            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10' >About Me</h2>
+        <section id='about' className="xl:mt-[80px] lg:mt-[80px] md:mt-[80px] mt-10">
+            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10' >About Me</h2>
             <div className='lg:flex gap-5 '>
                 <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg md:w-[600px] mx-auto'>
                     <img className=" hover:scale-125 duration-500 shadow-2xl mx-auto w-[400px] h-[400px] rounded-lg" alt="hnu" src={hnu} />

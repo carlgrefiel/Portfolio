@@ -4,9 +4,9 @@ import uiux from '../assets/images/png/uiux.png'
 
 export default function Services() {
   return (
-    <section id='services' >
+    <section id='services' className="xl:mt-[80px] lg:mt-[80px] md:mt-[80px] mt-10" >
       <div>
-        <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold pl-10'>Services</h2>
+        <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10'>Services</h2>
       </div>
       <div className='lg:flex gap-5 '>
         <div className='md:max-w-md md:mx-auto sm:max-w-md sm:mx-auto text-center shadow-2xl p-10 rounded-2xl mb-10'>
