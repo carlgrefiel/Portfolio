@@ -1,6 +1,6 @@
 import { BsFillMoonFill } from 'react-icons/bs';
-import logoBlack from '../assets/svg/logoBlack.svg';
-import logoWhite from '../assets/svg/logoWhite.svg';
+import logoBlack from '../assets/logo/svg/logoBlack.svg';
+import logoWhite from '../assets/logo/svg/logoWhite.svg';
 import { CgClose, CgMenu } from 'react-icons/cg'
 import { useState } from "react";
 import { HashLink as Link } from 'react-router-hash-link';//to install type: npm install --save react-router-hash-link

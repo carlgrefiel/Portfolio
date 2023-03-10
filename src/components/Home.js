@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import karu from '../assets/images/karu.png'
+import karu from '../assets/images/png/karu.png'
 import { HashLink as Link } from 'react-router-hash-link';//to install type: npm install --save react-router-hash-link
 
 export default function Home(props) {

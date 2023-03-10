@@ -1,6 +1,6 @@
-import webdesign from '../assets/images/webdesign.png'
-import webapp from '../assets/images/webapp.png'
-import uiux from '../assets/images/uiux.png'
+import webdesign from '../assets/images/png/webdesign.png'
+import webapp from '../assets/images/png/webapp.png'
+import uiux from '../assets/images/png/uiux.png'
 
 export default function Services() {
   return (

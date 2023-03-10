@@ -1,15 +1,15 @@
-import facebook from '../assets/svg/facebook.svg';
-import facebookdark from '../assets/svg/facebookdark.svg';
-import telegram from '../assets/svg/telegram.svg';
-import telegramdark from '../assets/svg/telegramdark.svg';
-import github from '../assets/svg/github.svg';
-import githubdark from '../assets/svg/githubdark.svg';
-import gmail from '../assets/svg/gmail.svg';
-import gmaildark from '../assets/svg/gmaildark.svg';
-import linkedin from '../assets/svg/linkedin.svg';
-import linkedindark from '../assets/svg/linkedindark.svg';
-import discord from '../assets/svg/discord.svg';
-import discorddark from '../assets/svg/discorddark.svg';
+import facebook from '../assets/icons/svg/facebook-icon.svg';
+import facebookdark from '../assets/icons/svg/facebookdark-icon.svg';
+import telegram from '../assets/icons/svg/telegram-icon.svg';
+import telegramdark from '../assets/icons/svg/telegramdark-icon.svg';
+import github from '../assets/icons/svg/github-icon.svg';
+import githubdark from '../assets/icons/svg/githubdark-icon.svg';
+import gmail from '../assets/icons/svg/gmail-icon.svg';
+import gmaildark from '../assets/icons/svg/gmaildark-icon.svg';
+import linkedin from '../assets/icons/svg/linkedin-icon.svg';
+import linkedindark from '../assets/icons/svg/linkedindark-icon.svg';
+import discord from '../assets/icons/svg/discord-icon.svg';
+import discorddark from '../assets/icons/svg/discorddark-icon.svg';
 import { HashLink as Link } from 'react-router-hash-link';//to install type: npm install --save react-router-hash-link
 
 export default function SocialMediaLinks(props) {

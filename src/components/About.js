@@ -1,4 +1,4 @@
-import hnu from '../assets/images/hnu.jpg'
+import hnu from '../assets/images/jpg/hnu.jpg'
 
 export default function About() {
     return (

@@ -1,9 +1,9 @@
-import figma from '../assets/images/figma.png'
-import adobe from '../assets/images/adobe.png'
-import react from '../assets/images/react.png'
-import next from '../assets/images/next.png'
-import laravel from '../assets/images/laravel.jpg'
-import vscode from '../assets/images/vscode.jpg'
+import figma from '../assets/images/png/figma.png'
+import adobe from '../assets/images/png/adobe.png'
+import react from '../assets/images/png/react.png'
+import next from '../assets/images/png/next.png'
+import laravel from '../assets/images/jpg/laravel.jpg'
+import vscode from '../assets/images/jpg/vscode.jpg'
 
 export default function Tools() {
     return (
