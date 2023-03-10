@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.2da27b08.css",
-    "main.js": "/react-gh-pages/static/js/main.4d342be2.js",
+    "main.css": "/react-gh-pages/static/css/main.9762e5be.css",
+    "main.js": "/react-gh-pages/static/js/main.202f55ba.js",
     "static/js/787.b701888c.chunk.js": "/react-gh-pages/static/js/787.b701888c.chunk.js",
     "static/media/karu.png": "/react-gh-pages/static/media/karu.2859942dab0fc30085f1.png",
     "static/media/hnu.jpg": "/react-gh-pages/static/media/hnu.5502ea88c52edd37070c.jpg",
@@ -16,25 +16,25 @@
     "static/media/figma.png": "/react-gh-pages/static/media/figma.ecb0c2f95f13613bfa7a.png",
     "static/media/logoBlack.svg": "/react-gh-pages/static/media/logoBlack.ea3ad2a2efbd7ba83ae125c8583406b3.svg",
     "static/media/logoWhite.svg": "/react-gh-pages/static/media/logoWhite.a9284cb97a7564d9f05237655e021c94.svg",
-    "static/media/discord.svg": "/react-gh-pages/static/media/discord.9e3972b85eef28ec77c6ba353efc0824.svg",
-    "static/media/discorddark.svg": "/react-gh-pages/static/media/discorddark.f2cdcffab0df68573d18ea85fb8f2e70.svg",
-    "static/media/github.svg": "/react-gh-pages/static/media/github.13ab16e5d79855e38ac988d0e0f4d4b6.svg",
-    "static/media/githubdark.svg": "/react-gh-pages/static/media/githubdark.711d5ce29ae4f1c29449327ae7f376c4.svg",
-    "static/media/gmail.svg": "/react-gh-pages/static/media/gmail.b6c7013b94c12256ab4837819dc7efb4.svg",
-    "static/media/gmaildark.svg": "/react-gh-pages/static/media/gmaildark.82da77d474b9ad7e14c0dd971cd8a963.svg",
+    "static/media/discord-icon.svg": "/react-gh-pages/static/media/discord-icon.9e3972b85eef28ec77c6ba353efc0824.svg",
+    "static/media/discorddark-icon.svg": "/react-gh-pages/static/media/discorddark-icon.f2cdcffab0df68573d18ea85fb8f2e70.svg",
+    "static/media/github-icon.svg": "/react-gh-pages/static/media/github-icon.13ab16e5d79855e38ac988d0e0f4d4b6.svg",
+    "static/media/githubdark-icon.svg": "/react-gh-pages/static/media/githubdark-icon.711d5ce29ae4f1c29449327ae7f376c4.svg",
+    "static/media/gmail-icon.svg": "/react-gh-pages/static/media/gmail-icon.b6c7013b94c12256ab4837819dc7efb4.svg",
+    "static/media/gmaildark-icon.svg": "/react-gh-pages/static/media/gmaildark-icon.82da77d474b9ad7e14c0dd971cd8a963.svg",
     "index.html": "/react-gh-pages/index.html",
-    "static/media/facebookdark.svg": "/react-gh-pages/static/media/facebookdark.80abd275e36805f09f2b825d3c311cdc.svg",
-    "static/media/facebook.svg": "/react-gh-pages/static/media/facebook.ae01c8ea6237a360904eccf519cdcda7.svg",
-    "static/media/telegram.svg": "/react-gh-pages/static/media/telegram.0b9de277c5b48d75df59799128540e77.svg",
-    "static/media/telegramdark.svg": "/react-gh-pages/static/media/telegramdark.c6fee464767ca995cc8fa6ed82af19ab.svg",
-    "static/media/linkedin.svg": "/react-gh-pages/static/media/linkedin.561e709aabad52358def2ea00d167016.svg",
-    "static/media/linkedindark.svg": "/react-gh-pages/static/media/linkedindark.1d93a5a98b3cda945566c7ec0c4138bc.svg",
-    "main.2da27b08.css.map": "/react-gh-pages/static/css/main.2da27b08.css.map",
-    "main.4d342be2.js.map": "/react-gh-pages/static/js/main.4d342be2.js.map",
+    "static/media/facebookdark-icon.svg": "/react-gh-pages/static/media/facebookdark-icon.80abd275e36805f09f2b825d3c311cdc.svg",
+    "static/media/facebook-icon.svg": "/react-gh-pages/static/media/facebook-icon.ae01c8ea6237a360904eccf519cdcda7.svg",
+    "static/media/telegram-icon.svg": "/react-gh-pages/static/media/telegram-icon.0b9de277c5b48d75df59799128540e77.svg",
+    "static/media/telegramdark-icon.svg": "/react-gh-pages/static/media/telegramdark-icon.c6fee464767ca995cc8fa6ed82af19ab.svg",
+    "static/media/linkedin-icon.svg": "/react-gh-pages/static/media/linkedin-icon.561e709aabad52358def2ea00d167016.svg",
+    "static/media/linkedindark-icon.svg": "/react-gh-pages/static/media/linkedindark-icon.1d93a5a98b3cda945566c7ec0c4138bc.svg",
+    "main.9762e5be.css.map": "/react-gh-pages/static/css/main.9762e5be.css.map",
+    "main.202f55ba.js.map": "/react-gh-pages/static/js/main.202f55ba.js.map",
     "787.b701888c.chunk.js.map": "/react-gh-pages/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da27b08.css",
-    "static/js/main.4d342be2.js"
+    "static/css/main.9762e5be.css",
+    "static/js/main.202f55ba.js"
   ]
 }
