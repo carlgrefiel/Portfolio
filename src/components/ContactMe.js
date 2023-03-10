@@ -67,7 +67,7 @@ const ContactMe = (props) => {
     };
 
     return (
-        <section id="contact" className='xl:mt-[80px] lg:mt-[80px] md:mt-[80px] mt-10'>
+        <section id="contact" className='xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10'>
             <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10 pt-5' >
                 Contact Me
             </h2>

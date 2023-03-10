@@ -18,11 +18,6 @@ export default function NavBar(props) {
                     <div className='relative px-10 h-[100px] w-full flex items-center justify-center'>
                         <img className='absolute left-0' alt="logoBlack" src={props.darkMode ? logoWhite : logoBlack} width="100" />
                         <ul onMouseLeave={open ? () => setOpen(!open) : () => setOpen(open)} className={open ? 'md:visible lg:invisible bg-gray-200 shadow-2xl  dark:bg-gray-800 absolute rounded-lg p-5 w-52 flex flex-col right-0 top-20' : 'lg:visible invisible  flex gap-10 mx-auto'}>
-                            <Link to="#home" smooth onClick={() => setIsActive(0)}>
-                                <li className={isActive === 0 ? 'text-lg font-semibold cursor-pointer py-1 dark:border-white border-black border-b-2 text-teal-600' : 'text-lg font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
-                                    Home
-                                </li>
-                            </Link>
                             <Link to="#about" smooth onClick={() => setIsActive(1)}>
                                 <li className={isActive === 1 ? 'text-lg font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'text-lg font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                     About
