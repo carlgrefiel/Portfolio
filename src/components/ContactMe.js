@@ -67,15 +67,15 @@ const ContactMe = (props) => {
     };
 
     return (
-        <section id="contact" className='xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10'>
+        <section onMouseEnter={() => props.setIsActive(4)} id="contact" className='xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10'>
             <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10 pt-5' >
                 Contact Me
             </h2>
             <div className='lg:flex-row flex  flex-col-reverse gap-5 '>
-                <SocialMediaLinks darkMode={props.darkMode} />
+                <SocialMediaLinks darkMode={props.darkMode} isActive={props.isActive} />
                 <div className='lg:w-1/2 shadow-2xl p-5 rounded-lg lg:mx-0 mx-auto md:w-3/4 w-full'>
                     <form ref={form} onSubmit={handleSubmit(sendEmail)} className="mx-auto lg:px-10">
-                        <div className="relative flex flex-col ">
+                        <div className="flex flex-col ">
                             <label className="text-lg pt-5 pb-1" >
                                 Name:
                             </label>
