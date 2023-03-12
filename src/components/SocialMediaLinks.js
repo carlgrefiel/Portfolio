@@ -57,28 +57,28 @@ export default function SocialMediaLinks(props) {
                         </Link>
                     </div>
                     <ul className='flex flex-wrap place-content-center gap-x-5 pt-10'>
-                        <Link to="#navbar" smooth>
-                            <li className='lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 hover:text-teal-600'>
+                        <Link to="#home" smooth>
+                            <li className={props.isActive === 0 ? 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                 Home
                             </li>
                         </Link>
                         <Link to="#about" smooth>
-                            <li className='lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 hover:text-teal-600'>
+                            <li className={props.isActive === 1 ? 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                 About
                             </li>
                         </Link>
                         <Link to="#services" smooth>
-                            <li className='lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 hover:text-teal-600'>
+                            <li className={props.isActive === 2 ? 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                 Services
                             </li>
                         </Link>
                         <Link to="#tools" smooth>
-                            <li className='lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 hover:text-teal-600'>
+                            <li className={props.isActive === 3 ? 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                 Tools
                             </li>
                         </Link>
                         <Link to="#contact" smooth>
-                            <li className='lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 hover:text-teal-600'>
+                            <li className={props.isActive === 4 ? 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 text-teal-600' : 'lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 hover:text-teal-600'}>
                                 Contact
                             </li>
                         </Link>

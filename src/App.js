@@ -10,18 +10,19 @@ import Footer from './components/Footer';
 
 
 export default function App() {
+  const [isActive, setIsActive] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
   const handleOnClick = (e) => {
     e.preventDefault();
     setDarkMode(!darkMode);
   };
   return (
-    <NavBar darkMode={darkMode} handleOnClick={handleOnClick} >
-      <Home />
-      <About />
-      <Services />
-      <Tools />
-      <ContactMe darkMode={darkMode}  />
+    <NavBar darkMode={darkMode} handleOnClick={handleOnClick} isActive={isActive} >
+      <Home setIsActive={setIsActive}/>
+      <About setIsActive={setIsActive}/>
+      <Services setIsActive={setIsActive}/>
+      <Tools setIsActive={setIsActive}/>
+      <ContactMe darkMode={darkMode} isActive={isActive} setIsActive={setIsActive} />
       <Footer />
     </NavBar>
   );
