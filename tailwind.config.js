@@ -4,7 +4,11 @@ module.exports = {
   isActive: "class",
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        'xs' : '375px',
+      },
+    },
   },
   plugins: [],
 }

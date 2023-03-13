@@ -19,7 +19,7 @@ export default function Home(props) {
                     </p>
                     <Link className='grid justify-items-center h-28' to="#contact" smooth>
                         <span className={hover ? 'animate-ping dark:bg-violet-600 bg-green-600 rounded-full xl:h-12 lg:h-12 xl:w-32 lg:w-32 h-9 w-24  mt-10 ' : 'animate-ping bg-violet-600 dark:bg-green-600 rounded-full xl:h-12 lg:h-12 xl:w-32 lg:w-32 h-9 w-24  mt-10'}></span>
-                        <button onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} className='absolute bg-violet-600 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-violet-600 xl:py-2 lg:py-2 py-1 lg:px-10 xl:px-10 px-8  font-bold rounded-full xl:text-2xl lg:text-xl  text-lg mt-10 '>
+                        <button onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} className='absolute bg-violet-600 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-violet-600 xl:py-2 lg:py-2 py-1 lg:px-10 xl:px-10 px-8  font-bold rounded-full xl:text-2xl lg:text-xl  text-lg mt-10 mx-auto'>
                             Hire Me
                         </button>
                     </Link>
