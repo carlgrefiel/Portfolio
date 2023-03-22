@@ -67,7 +67,7 @@ const ContactMe = (props) => {
     };
 
     return (
-        <section onMouseEnter={() => props.setIsActive(4)} id="contact" className='xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10'>
+        <section onMouseEnter={() => props.setIsActive(4)} id="contact" className='xl:py-[80px] lg:py-[80px] md:py-[80px] py-10'>
             <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10 pt-5' >
                 Contact Me
             </h2>

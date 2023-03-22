@@ -27,3 +27,6 @@ export default function App() {
     </NavBar>
   );
 };
+
+// isud sa layout grid ang mga content
+// margin top and buttom 80px

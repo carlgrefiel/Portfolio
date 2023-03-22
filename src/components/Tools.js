@@ -7,7 +7,7 @@ import vscode from '../assets/images/jpg/vscode.jpg'
 
 export default function Tools(props) {
     return (
-        <section onMouseEnter={() => props.setIsActive(3)} id='tools' className="xl:pt-[80px] lg:pt-[80px] md:pt-[80px] pt-10">
+        <section onMouseEnter={() => props.setIsActive(3)} id='tools' className="xl:py-[80px] lg:py-[80px] md:py-[80px] py-10">
            <h2 className='xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10' >Tools</h2>
           <div className='flex flex-wrap justify-center lg:gap-10 gap-5'>
               <div className='hover:scale-125 duration-500'>
