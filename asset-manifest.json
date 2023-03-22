@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.0efb4722.css",
-    "main.js": "/react-gh-pages/static/js/main.aee315d2.js",
+    "main.css": "/react-gh-pages/static/css/main.3e773c58.css",
+    "main.js": "/react-gh-pages/static/js/main.5f44f9d5.js",
     "static/js/787.b701888c.chunk.js": "/react-gh-pages/static/js/787.b701888c.chunk.js",
     "static/media/karu.png": "/react-gh-pages/static/media/karu.2859942dab0fc30085f1.png",
-    "static/media/hnu.jpg": "/react-gh-pages/static/media/hnu.5502ea88c52edd37070c.jpg",
     "static/media/laravel.jpg": "/react-gh-pages/static/media/laravel.a72ae5c1d3ff9aa2e27b.jpg",
     "static/media/next.png": "/react-gh-pages/static/media/next.495eee593de1b5eccaf4.png",
     "static/media/webdesign.png": "/react-gh-pages/static/media/webdesign.d37b7d740b4345ade533.png",
@@ -29,12 +28,12 @@
     "static/media/telegramdark-icon.svg": "/react-gh-pages/static/media/telegramdark-icon.c6fee464767ca995cc8fa6ed82af19ab.svg",
     "static/media/linkedin-icon.svg": "/react-gh-pages/static/media/linkedin-icon.561e709aabad52358def2ea00d167016.svg",
     "static/media/linkedindark-icon.svg": "/react-gh-pages/static/media/linkedindark-icon.1d93a5a98b3cda945566c7ec0c4138bc.svg",
-    "main.0efb4722.css.map": "/react-gh-pages/static/css/main.0efb4722.css.map",
-    "main.aee315d2.js.map": "/react-gh-pages/static/js/main.aee315d2.js.map",
+    "main.3e773c58.css.map": "/react-gh-pages/static/css/main.3e773c58.css.map",
+    "main.5f44f9d5.js.map": "/react-gh-pages/static/js/main.5f44f9d5.js.map",
     "787.b701888c.chunk.js.map": "/react-gh-pages/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0efb4722.css",
-    "static/js/main.aee315d2.js"
+    "static/css/main.3e773c58.css",
+    "static/js/main.5f44f9d5.js"
   ]
 }
