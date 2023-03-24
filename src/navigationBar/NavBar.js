@@ -34,7 +34,7 @@ export default function NavBar(props) {
         <div className={props.darkMode ? "dark" : ""}>
             <main className='bg-white font-sans dark:bg-gray-900 dark:text-white '>
                 <div className='xl:w-[1200px] mx-auto w-5/6'>
-                    <nav id='navbar' className={`sticky ${visible ? 'top-0' : ''} `}>
+                    <nav id='navbar' className={`sticky ${visible ? 'top-0 bg-white' : ''} `}>
                         <div className='relative lg:h-[100px] h-[50px] w-full flex items-center justify-center'>
                             <img className='absolute left-0' alt="logoBlack" src={props.darkMode ? logoWhite : logoBlack} width="100" />
                             <ul onMouseLeave={open ? () => setOpen(!open) : () => setOpen(open)} className={open ? 'md:visible lg:invisible bg-gray-200 shadow-2xl  dark:bg-gray-800 absolute rounded-lg p-5 w-52 flex flex-col right-0 top-20' : 'lg:visible invisible  flex gap-10 mx-auto'}>
