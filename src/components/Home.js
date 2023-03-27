@@ -10,7 +10,7 @@ export default function Home(props) {
             <div className=' xl:flex'>
                 <div className=' xl:w-1/2 xl:text-start mx-auto w-4/6  text-center xl:px-5'>
                     <h1 className='xl:text-5xl xl:font-semibold lg:text-4xl text-3xl font-medium font-serif text-gray-800 dark:text-gray-50' >
-                        Hello, I'm <span className='jhoncarl text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
+                        Hello, I'm <span className=' text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
                     </h1>
                     <div className='xl:text-3xl lg:text-2xl text-xl py-2  font-bold font-mono text-gray-800 dark:text-gray-50'>
                     <TypeWriterEffect />
@@ -20,7 +20,7 @@ export default function Home(props) {
                     </p>
                     <Link className='relative grid xl:justify-items-start justify-items-center h-28' to="#contact" smooth>
                         <span className={hover ? 'animate-ping dark:bg-violet-600 bg-green-600 rounded-full xl:h-12 lg:h-12 xl:w-44 lg:w-44 h-9 w-24  mt-10 ' : 'animate-ping bg-violet-600 dark:bg-green-600 rounded-full xl:h-12 lg:h-12 xl:w-44 lg:w-44 h-9 w-24  mt-10'}></span>
-                        <button onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} className='absolute bg-violet-600 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-violet-600 xl:py-2 lg:py-2 py-1 lg:px-10 xl:px-10 px-8  font-bold rounded-full xl:text-2xl lg:text-xl  text-lg mt-10'>
+                        <button onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} className='absolute bg-violet-600 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-violet-600 xl:py-2 lg:py-2 py-1 lg:px-10 xl:px-10 px-8  font-bold rounded-full xl:text-2xl lg:text-xl  text-lg mt-10 font-serif '>
                             Hire Me
                         </button>
                     </Link>
