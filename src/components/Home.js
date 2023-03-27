@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import karu from '../assets/images/png/karu.png'
 import { HashLink as Link } from 'react-router-hash-link';//to install type: npm install --save react-router-hash-link
-import TypeWritterEffect from './TypeWritterEffect';
+import TypeWriterEffect from './TypeWriterEffect';
 
 export default function Home(props) {
     const [hover, setHover] = useState(false);//to change the color of animation pulse while hovering
@@ -13,7 +13,7 @@ export default function Home(props) {
                         Hello, I'm <span className='jhoncarl text-violet-700 dark:text-green-600 font-bold'>Jhon Carl</span>
                     </h1>
                     <div className='xl:text-3xl lg:text-2xl text-xl py-2  font-bold font-mono text-gray-800 dark:text-gray-50'>
-                    <TypeWritterEffect />
+                    <TypeWriterEffect />
                     </div>
                     <p className='lg:text-xl md:text-lg text-md py-5 leading-8'>
                         As a skilled web developer and designer, I provide various services to assist you in developing the ideal website or application for your company.

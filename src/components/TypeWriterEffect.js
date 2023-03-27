@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-export default function TypeWritterEffect() {
+export default function TypeWriterEffect() {
   return (
     <Typewriter
       options={{
