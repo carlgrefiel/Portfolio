@@ -7,6 +7,7 @@ import vscode from "../assets/images/png/vscode.png";
 import css from "../assets/images/png/css.png";
 import html from "../assets/images/png/html.png";
 import js from "../assets/images/png/js.png";
+import php from "../assets/images/png/php.png";
 
 const styles = {
   section: "xl:py-[80px] lg:py-[80px] md:py-[80px] py-10",
@@ -26,7 +27,10 @@ export default function Skills(props) {
       <h2 className={styles.h2}>Skills</h2>
       <div className={styles.divContainer}>
         <div className={styles.divItem}>
-          <img className={styles.img} alt="figma" src={figma} />
+          <img className={styles.img} alt="react" src={react} />
+        </div>
+        <div className={styles.divItem}>
+          <img className={styles.img} alt="next" src={next} />
         </div>
         <div className={styles.divItem}>
           <img className={styles.img} alt="html" src={html} />
@@ -38,19 +42,19 @@ export default function Skills(props) {
           <img className={styles.img} alt="js" src={js} />
         </div>
         <div className={styles.divItem}>
+          <img className={styles.img} alt="figma" src={figma} />
+        </div>
+        <div className={styles.divItem}>
           <img className={styles.img} alt="adobe" src={adobe} />
         </div>
         <div className={styles.divItem}>
           <img className={styles.img} alt="laravel" src={laravel} />
         </div>
         <div className={styles.divItem}>
-          <img className={styles.img} alt="react" src={react} />
+          <img className={styles.img} alt="php" src={php} />
         </div>
         <div className={styles.divItem}>
           <img className={styles.img} alt="vscode" src={vscode} />
-        </div>
-        <div className={styles.divItem}>
-          <img className={styles.img} alt="next" src={next} />
         </div>
       </div>
     </section>
