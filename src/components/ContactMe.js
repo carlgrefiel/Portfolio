@@ -3,10 +3,11 @@ import emailjs from "@emailjs/browser"; //to install type: npm install @emailjs/
 import { toast } from "react-toastify"; //to install type: npm install --save react-toastify
 import SocialMediaLinks from "./SocialMediaLinks";
 import { useForm } from "react-hook-form"; //to install type: npm install react-hook-form
+import Fade from "react-reveal/Fade";
 
 const styles = {
   divContainer:
-    "lg:w-1/2 shadow-2xl p-5 rounded-lg lg:mx-0 mx-auto md:w-3/4 w-full  dark:bg-zinc-600 bg-gray-50",
+    "lg:w-1/2 shadow-2xl p-5 rounded-lg lg:mx-0 mx-auto md:w-3/4 w-full  dark:bg-zinc-800 bg-gray-50",
   input:
     "text-lg bg-transparent border-black  dark:border-white rounded-lg border-2 py-1 px-3 focus:outline-none",
   textarea:
@@ -100,73 +101,75 @@ export default function ContactMe(props) {
       <h2 className={styles.h2}>Contact Me</h2>
       <div className="lg:flex-row flex  flex-col-reverse gap-5 ">
         <SocialMediaLinks darkMode={props.darkMode} isActive={props.isActive} />
-        <div className={styles.divContainer}>
-          <form
-            ref={form}
-            onSubmit={handleSubmit(sendEmail)}
-            className="mx-auto lg:px-10"
-          >
-            <div className="flex flex-col ">
-              <label className={styles.label}>Name:</label>
-              <input
-                className={styles.input}
-                id="name"
-                type="text"
-                name="user_name"
-                {...register("user_name", { required: true, minLength: 4 })}
-              />
-              {errors.user_name && (
-                <span className={styles.error}>Name is required!</span>
-              )}
-              <label className={styles.label}>Contact:</label>
-              <input
-                className={styles.input}
-                id="name"
-                type="tel"
-                name="user_contact"
-                {...register("user_contact", {
-                  required: true,
-                  minLength: 6,
-                  maxLength: 12,
-                })}
-              />
-              {errors.user_contact && (
-                <span className={styles.error}>
-                  Contact number is required!
-                </span>
-              )}
-              <label className={styles.label}>Email Address:</label>
-              <input
-                className={styles.input}
-                id="name"
-                type="email"
-                name="user_email"
-                {...register("user_email", {
-                  required: true,
-                  pattern: /^\S+@\S+$/i,
-                })}
-              />
-              {errors.user_email && (
-                <span className={styles.error}>Email is required!</span>
-              )}
-              <label className={styles.label}>Your Message</label>
-              <textarea
-                className={styles.textarea}
-                name="message"
-                {...register("message", { required: true, minLength: 10 })}
-              />
-              {errors.message && (
-                <span className={styles.error}>Message is required!</span>
-              )}
-            </div>
-            <button
-              className="text-xl dark:bg-green-600 bg-violet-600 rounded-full py-1 px-3 w-full my-5 hover:bg-green-600 dark:hover:bg-violet-600 font-semibold"
-              type="submit"
+        <Fade right duration={2000} distance="150px">
+          <div className={styles.divContainer}>
+            <form
+              ref={form}
+              onSubmit={handleSubmit(sendEmail)}
+              className="mx-auto lg:px-10"
             >
-              Send
-            </button>
-          </form>
-        </div>
+              <div className="flex flex-col ">
+                <label className={styles.label}>Name:</label>
+                <input
+                  className={styles.input}
+                  id="name"
+                  type="text"
+                  name="user_name"
+                  {...register("user_name", { required: true, minLength: 4 })}
+                />
+                {errors.user_name && (
+                  <span className={styles.error}>Name is required!</span>
+                )}
+                <label className={styles.label}>Contact:</label>
+                <input
+                  className={styles.input}
+                  id="name"
+                  type="tel"
+                  name="user_contact"
+                  {...register("user_contact", {
+                    required: true,
+                    minLength: 6,
+                    maxLength: 12,
+                  })}
+                />
+                {errors.user_contact && (
+                  <span className={styles.error}>
+                    Contact number is required!
+                  </span>
+                )}
+                <label className={styles.label}>Email Address:</label>
+                <input
+                  className={styles.input}
+                  id="name"
+                  type="email"
+                  name="user_email"
+                  {...register("user_email", {
+                    required: true,
+                    pattern: /^\S+@\S+$/i,
+                  })}
+                />
+                {errors.user_email && (
+                  <span className={styles.error}>Email is required!</span>
+                )}
+                <label className={styles.label}>Your Message</label>
+                <textarea
+                  className={styles.textarea}
+                  name="message"
+                  {...register("message", { required: true, minLength: 10 })}
+                />
+                {errors.message && (
+                  <span className={styles.error}>Message is required!</span>
+                )}
+              </div>
+              <button
+                className="text-xl dark:bg-green-600 bg-violet-600 rounded-full py-1 px-3 w-full my-5 hover:bg-green-600 dark:hover:bg-violet-600 font-semibold"
+                type="submit"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </Fade>
       </div>
     </section>
   );

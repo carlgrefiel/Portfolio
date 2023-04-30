@@ -11,6 +11,7 @@ import linkedindark from "../assets/icons/svg/linkedindark-icon.svg";
 import discord from "../assets/icons/svg/discord-icon.svg";
 import discorddark from "../assets/icons/svg/discorddark-icon.svg";
 import { HashLink as Link } from "react-router-hash-link"; //to install type: npm install --save react-router-hash-link
+import Fade from "react-reveal/Fade";
 
 const styles = {
   isActive:
@@ -21,8 +22,8 @@ const styles = {
 
 export default function SocialMediaLinks(props) {
   return (
-    <>
-      <div className="lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center dark:bg-zinc-600 bg-gray-50">
+    <Fade left duration={2000} distance="150px">
+      <div className="lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center dark:bg-zinc-800 bg-gray-50">
         <div>
           <h3 className="lg:text-xl text-lg font-semibold  text-center p-5">
             Social Media links
@@ -184,6 +185,6 @@ export default function SocialMediaLinks(props) {
           </ul>
         </div>
       </div>
-    </>
+    </Fade>
   );
 }
