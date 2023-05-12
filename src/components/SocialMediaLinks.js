@@ -12,22 +12,14 @@ import discord from "../assets/icons/svg/discord-icon.svg";
 import discorddark from "../assets/icons/svg/discorddark-icon.svg";
 import { HashLink as Link } from "react-router-hash-link"; //to install type: npm install --save react-router-hash-link
 import Fade from "react-reveal/Fade";
-
-const styles = {
-  isActive:
-    "lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:border-white border-black  border-b-2 dark:text-green-600 text-violet-700",
-  isNotActive:
-    "lg:text-xl md:text-lg text-md font-semibold cursor-pointer py-1 dark:hover:border-white hover:border-black  hover:border-b-2 dark:hover:text-green-600 hover:text-violet-700   ",
-};
+import { styles } from "./styles/styles";
 
 export default function SocialMediaLinks(props) {
   return (
     <Fade left duration={2000} distance="150px">
-      <div className="lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center dark:bg-zinc-800 bg-gray-50">
+      <div className={styles.divContainerSocial}>
         <div>
-          <h3 className="lg:text-xl text-lg font-semibold  text-center p-5">
-            Social Media links
-          </h3>
+          <h3 className={styles.h3_social}>Social Media links</h3>
           <div className="grid grid-cols-2 md:gap-x-24 gap-x-auto  gap-y-5 ">
             <Link
               className="cursor-pointer"
@@ -40,9 +32,7 @@ export default function SocialMediaLinks(props) {
                   alt="gmail"
                   src={props.darkMode ? gmail : gmaildark}
                 />
-                <p className="lg:text-lg md:text-md text-sm font-medium ">
-                  Gmail
-                </p>
+                <p className={styles.p_social}>Gmail</p>
               </div>
             </Link>
             <Link
@@ -56,9 +46,7 @@ export default function SocialMediaLinks(props) {
                   alt="linkedin"
                   src={props.darkMode ? linkedin : linkedindark}
                 />
-                <p className="lg:text-lg md:text-md text-sm font-medium ">
-                  LinkedIn
-                </p>
+                <p className={styles.p_social}>LinkedIn</p>
               </div>
             </Link>
             <Link
@@ -88,9 +76,7 @@ export default function SocialMediaLinks(props) {
                   alt="telegram"
                   src={props.darkMode ? telegram : telegramdark}
                 />
-                <p className="lg:text-lg md:text-md text-sm font-medium ">
-                  Telegram
-                </p>
+                <p className={styles.p_social}>Telegram</p>
               </div>
             </Link>
             <Link
@@ -104,9 +90,7 @@ export default function SocialMediaLinks(props) {
                   alt="discord"
                   src={props.darkMode ? discord : discorddark}
                 />
-                <p className="lg:text-lg md:text-md text-sm font-medium ">
-                  Discord
-                </p>
+                <p className={styles.p_social}>Discord</p>
               </div>
             </Link>
             <Link
@@ -120,9 +104,7 @@ export default function SocialMediaLinks(props) {
                   alt="github"
                   src={props.darkMode ? github : githubdark}
                 />
-                <p className="lg:text-lg md:text-md text-sm font-medium ">
-                  GitHub
-                </p>
+                <p className={styles.p_social}>GitHub</p>
               </div>
             </Link>
           </div>

@@ -4,27 +4,21 @@ import webapp from "../assets/images/png/webapp.png";
 import uiux from "../assets/images/png/uiux.png";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-
-const styles = {
-  h2: "xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10",
-  h3: "xl:text-xl text-lg font-medium pt-8 pb-2",
-  divItem:
-    " md:max-w-md md:mx-auto sm:max-w-md sm:mx-auto text-center shadow-2xl p-10 rounded-2xl mb-10  dark:bg-zinc-800 bg-gray-50",
-};
+import { styles } from "./styles/styles";
 
 export default function Services(props) {
   return (
     <section
       onMouseEnter={() => props.setIsActive(2)}
       id="services"
-      className="xl:py-[80px] lg:py-[80px] md:py-[80px] py-10"
+      className={styles.section}
     >
       <div>
         <h2 className={styles.h2}>Services</h2>
       </div>
       <div className="lg:flex gap-5 ">
         <Fade left duration={2000} distance="150px">
-          <div className={styles.divItem}>
+          <div className={styles.divItemServices}>
             <div className="hover:scale-125 duration-500">
               <img
                 className=" shadow-2xl mx-auto  rounded-lg"
@@ -41,7 +35,7 @@ export default function Services(props) {
           </div>
         </Fade>
         <Flip bottom duration={1500}>
-          <div className={styles.divItem}>
+          <div className={styles.divItemServices}>
             <div className="hover:scale-125 duration-500">
               <img
                 className="shadow-2xl mx-auto  rounded-lg"
@@ -58,7 +52,7 @@ export default function Services(props) {
           </div>
         </Flip>
         <Fade right duration={2000} distance="150px">
-          <div className={styles.divItem}>
+          <div className={styles.divItemServices}>
             <div className="hover:scale-125 duration-500">
               <img
                 className=" shadow-2xl mx-auto  rounded-lg"
