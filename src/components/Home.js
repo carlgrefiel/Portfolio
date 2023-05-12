@@ -12,7 +12,7 @@ const styles = {
   animate:
     "animate-ping rounded-full xl:h-12 lg:h-12 xl:w-44 lg:w-44 h-9 w-24  mt-10",
   imgContainer:
-    " bg-gradient-to-t dark:from-gray-100 dark:to-green-600 from-gray-900 to-violet-600 rounded-full xl:w-80 xl:h-80 h-0 mx-auto invisible xl:visible ",
+    " bg-gradient-to-t dark:from-gray-100 dark:to-green-600 from-gray-900 to-violet-600 rounded-full xl:w-80 xl:h-80 h-0 mx-auto invisible xl:visible flex  items-center",
   button:
     "absolute bg-violet-600 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-violet-600 xl:py-2 lg:py-2 py-1 lg:px-10 xl:px-10 px-8  font-bold rounded-full xl:text-2xl lg:text-xl  text-lg mt-10 font-serif ",
   link: "relative grid xl:justify-items-start justify-items-center h-28",
@@ -20,6 +20,7 @@ const styles = {
     "xl:text-3xl lg:text-2xl text-xl py-2  font-bold font-mono text-gray-800 dark:text-gray-50",
   span: " text-violet-700 dark:text-green-600 font-bold",
   p: "lg:text-xl md:text-lg text-md py-5 leading-8",
+  img: "cursor-pointer w-[300px] h-[300px] rounded-full mx-auto ",
 };
 
 export default function Home(props) {
@@ -68,7 +69,7 @@ export default function Home(props) {
         <div className="w-1/2">
           <Fade bottom duration={2000} distance="40px">
             <div className={styles.imgContainer}>
-              <img alt="carl" className="cursor-pointer" src={karu} />
+              <img alt="carl" className={styles.img} src={karu} />
             </div>
           </Fade>
         </div>
