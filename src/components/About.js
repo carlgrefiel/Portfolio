@@ -1,18 +1,17 @@
 import Rotate from "react-reveal/Rotate";
+import { styles } from "./styles/styles";
 
 export default function About(props) {
   return (
     <section
       id="about"
-      className="xl:py-[80px] lg:py-[80px] md:py-[80px] py-10"
+      className={styles.section}
       onMouseEnter={() => props.setIsActive(1)}
     >
-      <h2 className="xl:text-3xl lg:text-2xl text-xl font-semibold text-center my-3">
-        About Me
-      </h2>
+      <h2 className={styles.h2_aboutme}>About Me</h2>
       <Rotate bottom right>
-        <div className=" xl:w-[800px] w-4/5 mx-auto shadow-2xl p-5 rounded-lg  dark:bg-zinc-800 bg-gray-50">
-          <p className="lg:text-xl md:text-lg text-md py-8 leading-8 lg:px-16 px-1 text-center">
+        <div className={styles.divContainerAbout}>
+          <p className={styles.p}>
             I earned a Bachelor of Science in Information Technology from Holy
             Name University. I learned much about programming languages like
             HTML, CSS, JavaScript, and PHP at Holy Name University. I also

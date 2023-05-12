@@ -4,19 +4,8 @@ import { toast } from "react-toastify"; //to install type: npm install --save re
 import SocialMediaLinks from "./SocialMediaLinks";
 import { useForm } from "react-hook-form"; //to install type: npm install react-hook-form
 import Fade from "react-reveal/Fade";
+import { styles } from "./styles/styles";
 
-const styles = {
-  divContainer:
-    "lg:w-1/2 shadow-2xl p-5 rounded-lg lg:mx-0 mx-auto md:w-3/4 w-full  dark:bg-zinc-800 bg-gray-50",
-  input:
-    "text-lg bg-transparent border-black  dark:border-white rounded-lg border-2 py-1 px-3 focus:outline-none",
-  textarea:
-    "h-40 text-lg bg-transparent border-black dark:border-white rounded-lg border-2 py-2 px-3 focus:outline-none",
-  section: "xl:py-[80px] lg:py-[80px] md:py-[80px] py-10",
-  h2: "xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10 pt-5",
-  label: "text-lg pt-5 pb-1",
-  error: "dark:text-red-500 text-red-600 p-1",
-};
 export default function ContactMe(props) {
   const {
     register,
@@ -102,7 +91,7 @@ export default function ContactMe(props) {
       <div className="lg:flex-row flex  flex-col-reverse gap-5 ">
         <SocialMediaLinks darkMode={props.darkMode} isActive={props.isActive} />
         <Fade right duration={2000} distance="150px">
-          <div className={styles.divContainer}>
+          <div className={styles.divContainerContact}>
             <form
               ref={form}
               onSubmit={handleSubmit(sendEmail)}
@@ -161,10 +150,7 @@ export default function ContactMe(props) {
                   <span className={styles.error}>Message is required!</span>
                 )}
               </div>
-              <button
-                className="text-xl dark:bg-green-600 bg-violet-600 rounded-full py-1 px-3 w-full my-5 hover:bg-green-600 dark:hover:bg-violet-600 font-semibold"
-                type="submit"
-              >
+              <button className={styles.contactButton} type="submit">
                 Send
               </button>
             </form>
