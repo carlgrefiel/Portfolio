@@ -25,34 +25,34 @@ export default function Skills(props) {
           <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="react" src={react} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="next" src={next} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="html" src={html} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="css" src={css} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="js" src={js} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="git" src={git} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="github" src={github} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="figma" src={figma} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="adobe" src={adobe} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="laravel" src={laravel} />
           </div>
-          <div className={styles.divItem}>
+          <div className={styles.divItemSkills}>
             <img className={styles.imgSkills} alt="php" src={php} />
           </div>
         </div>
