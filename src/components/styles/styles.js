@@ -29,10 +29,11 @@ export const styles = {
   img: "cursor-pointer w-[300px] h-[300px] rounded-full mx-auto ",
   // text
   h1: "xl:text-5xl xl:font-semibold lg:text-4xl text-3xl font-medium font-serif text-gray-800 dark:text-gray-50",
-  h2: "xl:text-3xl lg:text-2xl text-xl font-semibold my-2 pl-10",
-  h2_aboutme: "xl:text-3xl lg:text-2xl text-xl font-semibold text-center my-3",
+  h2: "xl:text-3xl lg:text-2xl text-xl font-bold text-gray-800 dark:text-gray-50 my-5 pl-10",
+  h2_aboutme:
+    "xl:text-3xl lg:text-2xl text-xl font-bold text-gray-800 dark:text-gray-50 text-center my-5",
   h3: "xl:text-xl text-lg font-medium pt-8 pb-2",
-  h3_social: "lg:text-xl text-lg font-semibold  text-center p-5",
+  h3_social: "lg:text-xl text-lg font-bold  text-center p-5",
   span: " text-violet-700 dark:text-green-600 font-bold",
   p: "lg:text-xl md:text-lg text-md py-8 leading-8 lg:px-16 px-1 text-center",
   p_social: "lg:text-lg md:text-md text-sm font-medium ",

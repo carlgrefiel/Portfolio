@@ -26,9 +26,9 @@ export default function Home(props) {
           </Fade>
 
           <p className={styles.p}>
-            As a skilled web developer and designer, I provide various services
-            to assist you in developing the ideal website or application for
-            your company.
+            As a proficient web and mobile developer, I offer a range of
+            services to help you create the perfect website or application for
+            your business.
           </p>
           <Flip bottom>
             <Link className={styles.link} to="#contact" smooth>

@@ -12,14 +12,15 @@ export default function About(props) {
       <Rotate bottom right>
         <div className={styles.divContainerAbout}>
           <p className={styles.p}>
-            I earned a Bachelor of Science in Information Technology from Holy
-            Name University. I learned much about programming languages like
-            HTML, CSS, JavaScript, and PHP at Holy Name University. I also
-            improved my design abilities by learning how to create visually
-            appealing and user-friendly user interfaces. I finished several
-            projects that required me to collaborate with other students to
-            develop websites and applications that met specific requirements and
-            produced measurable results.
+            Hi, I'm Jhon Carl Grefiel, a passionate Junior Web Developer with a
+            degree in Information Technology. Proficient in HTML, CSS,
+            JavaScript, and React, I specialize in crafting user-centric and
+            visually appealing websites. My experience includes contributing to
+            projects at Global Telemedicine Corp. and Pedicab Solutions Inc.,
+            where I seamlessly integrated front-end elements with back-end
+            systems. Based in Napo Alicia, Bohol, I'm enthusiastic,
+            detail-oriented, and dedicated to enhancing web performance. Let's
+            create something amazing together!
           </p>
         </div>
       </Rotate>

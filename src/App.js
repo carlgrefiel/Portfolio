@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import ContactMe from "./components/ContactMe";
 import { useState } from "react";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 export default function App() {
   const [isActive, setIsActive] = useState(0);
@@ -23,6 +24,7 @@ export default function App() {
       <Home setIsActive={setIsActive} />
       <About setIsActive={setIsActive} />
       <Services setIsActive={setIsActive} />
+      <Projects setIsActive={setIsActive} />
       <Skills setIsActive={setIsActive} />
       <ContactMe
         darkMode={darkMode}
