@@ -1,7 +1,9 @@
 export const styles = {
   section: "xl:py-[80px] lg:py-[80px] md:py-[80px] py-10",
   divContainerAbout:
-    " xl:w-[800px] w-4/5 mx-auto shadow-2xl p-5 rounded-lg  dark:bg-zinc-800 bg-gray-50",
+    " xl:w-[800px] w-11/12 mx-auto shadow-2xl p-5 py-8 rounded-lg  dark:bg-zinc-800 bg-gray-50",
+  divItemServices:
+    " md:max-w-md md:mx-auto sm:max-w-md sm:mx-auto text-center shadow-2xl p-10 rounded-2xl mb-10  dark:bg-zinc-800 bg-gray-50",
   divContainerSocial:
     "lg:w-1/2 shadow-2xl p-5 rounded-lg flex items-center justify-center dark:bg-zinc-800 bg-gray-50",
   divContainerContact:
@@ -10,8 +12,7 @@ export const styles = {
   divContainerSkills: "flex flex-wrap justify-center lg:gap-10 gap-5 ",
   divItemSkills:
     " w-[200px] h-[100px]  dark:bg-zinc-800 bg-gray-50 rounded-lg ",
-  divItemServices:
-    " md:max-w-md md:mx-auto sm:max-w-md sm:mx-auto text-center shadow-2xl p-10 rounded-2xl mb-10  dark:bg-zinc-800 bg-gray-50",
+
   animate:
     "animate-ping rounded-full xl:h-12 lg:h-12 xl:w-44 lg:w-44 h-9 w-24  mt-10",
   contactButton:
