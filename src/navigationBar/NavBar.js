@@ -74,6 +74,7 @@ export default function NavBar(props) {
                   About
                 </li>
               </Link>
+
               <Link to="#services" smooth>
                 <li
                   onClick={() => props.setIsActive(2)}
@@ -84,11 +85,21 @@ export default function NavBar(props) {
                   Services
                 </li>
               </Link>
-              <Link to="#skills" smooth>
+              <Link to="#projects" smooth>
                 <li
                   onClick={() => props.setIsActive(3)}
                   className={`${styles.navItem}${
                     props.isActive === 3 ? `${styles.navActive}` : ""
+                  }`}
+                >
+                  Projects
+                </li>
+              </Link>
+              <Link to="#skills" smooth>
+                <li
+                  onClick={() => props.setIsActive(4)}
+                  className={`${styles.navItem}${
+                    props.isActive === 4 ? `${styles.navActive}` : ""
                   }`}
                 >
                   Skills
@@ -96,9 +107,9 @@ export default function NavBar(props) {
               </Link>
               <Link to="#contact" smooth>
                 <li
-                  onClick={() => props.setIsActive(4)}
+                  onClick={() => props.setIsActive(5)}
                   className={`${styles.navItem}${
-                    props.isActive === 4 ? `${styles.navActive}` : ""
+                    props.isActive === 5 ? `${styles.navActive}` : ""
                   }`}
                 >
                   Contact

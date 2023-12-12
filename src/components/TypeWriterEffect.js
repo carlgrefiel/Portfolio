@@ -5,15 +5,11 @@ export default function TypeWriterEffect() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "Wed Developer",
-          "Mobile Developer",
-          "UI Designer",
-        ],
+        strings: ["Wed Developer", "Mobile Developer"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
       }}
     />
   );
-};
+}

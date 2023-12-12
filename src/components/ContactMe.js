@@ -87,7 +87,7 @@ export default function ContactMe(props) {
       id="contact"
       className={styles.section}
     >
-      <h2 className={styles.h2}>Contact Me</h2>
+      <h2 className={styles.h2}>Contacts</h2>
       <div className="lg:flex-row flex  flex-col-reverse gap-5 ">
         <SocialMediaLinks darkMode={props.darkMode} isActive={props.isActive} />
         <Fade right duration={2000} distance="150px">
